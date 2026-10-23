@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050a12">
+  <meta name="description" content="Portfólio de Gustavo Dantas — Desenvolvimento de Sistemas, Dados e Inteligência Artificial.">
+  <title>Gustavo Dantas | AI Systems Interface</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Gustavo Dantas - início">
+      <span class="brand-mark">GD<span>·</span></span>
+      <span class="brand-name">GUSTAVO<span>DANTAS</span></span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#about">SOBRE</a>
+      <a href="#skills">SISTEMAS</a>
+      <a href="#projects">PROJETOS</a>
+      <a href="#contact">CONTATO</a>
+    </nav>
+    <div class="top-status"><span class="pulse-dot"></span><span>SYSTEM ONLINE</span></div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> INTERFACE DE DESENVOLVEDOR <span class="eyebrow-code">// GD-001</span></p>
+        <h1>GUSTAVO<br><span>DANTAS</span></h1>
+        <div class="hero-subtitle"><span class="type-prefix">&gt;</span> <span id="typedText">Construindo soluções inteligentes</span><span class="cursor">_</span></div>
+        <p class="hero-description">Estudante de Análise e Desenvolvimento de Sistemas, explorando a interseção entre software, dados e Inteligência Artificial.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span>▸</span> EXPLORAR PROJETOS</a>
+          <a class="button button-ghost" href="#contact">CONECTAR <span>↗</span></a>
+        </div>
+        <div class="hero-metrics">
+          <div><span class="metric-number" data-count="03">00</span><span class="metric-label">ÁREAS DE FOCO</span></div>
+          <div><span class="metric-number" data-count="∞">∞</span><span class="metric-label">IDEIAS EM TESTE</span></div>
+          <div><span class="metric-number" data-count="01">01</span><span class="metric-label">MENTALIDADE: BUILD</span></div>
+        </div>
+      </div>
+
+      <div class="holo-stage" aria-label="Núcleo holográfico animado">
+        <div class="stage-label stage-label-top"><span>NEURAL CORE</span><span>ACTIVE</span></div>
+        <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+        <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+        <div class="holo-grid"></div>
+        <div class="orbit orbit-outer"><i></i><i></i><i></i></div>
+        <div class="orbit orbit-mid"><i></i><i></i></div>
+        <div class="orbit orbit-inner"><i></i><i></i><i></i><i></i></div>
+        <div class="core-halo"></div>
+        <div class="core">
+          <div class="core-ring"></div>
+          <div class="core-ring ring-two"></div>
+          <div class="core-ring ring-three"></div>
+          <div class="core-center"><span class="core-glyph">AI</span><span class="core-cross">+</span></div>
+          <div class="core-sweep"></div>
+        </div>
+        <div class="radar radar-one"></div><div class="radar radar-two"></div>
+        <div class="node node-a"></div><div class="node node-b"></div><div class="node node-c"></div>
+        <div class="data-tag tag-left"><span class="tag-icon">⌘</span><span><b>PROCESSING</b><small>LOGIC / SYSTEMS</small></span></div>
+        <div class="data-tag tag-right"><span class="tag-icon">◈</span><span><b>DATA STREAM</b><small>ANALYSIS / INSIGHTS</small></span></div>
+        <div class="stage-label stage-label-bottom"><span>CORE TEMPERATURE <b>NOMINAL</b></span><span>0x7A<span class="tiny-bars"> ▂▄▆█</span></span></div>
+        <div class="side-readout readout-left"><span>SYS</span><b>98.7</b><small>STABILITY</small></div>
+        <div class="side-readout readout-right"><span>AI</span><b>READY</b><small>NEURAL LINK</small></div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO INITIALIZE</div>
+    </section>
+
+    <section class="section-shell section-block" id="about">
+      <div class="section-heading"><span class="section-index">01 / PROFILE</span><h2>HUMAN <span>×</span> MACHINE</h2><p>Curiosidade humana. Pensamento lógico. Soluções inteligentes.</p></div>
+      <div class="about-layout">
+        <div class="terminal-card">
+          <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>gustavo_profile.py</span><span class="terminal-live">● LIVE</span></div>
+          <div class="terminal-body">
+            <p><span class="code-muted">01</span> <span class="code-purple">class</span> <span class="code-cyan">GustavoDantas</span>:</p>
+            <p><span class="code-muted">02</span> &nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-yellow">__init__</span>(self):</p>
+            <p><span class="code-muted">03</span> &nbsp;&nbsp;&nbsp;&nbsp;self.role = <span class="code-green">"ADS Student"</span></p>
+            <p><span class="code-muted">04</span> &nbsp;&nbsp;&nbsp;&nbsp;self.focus = [</p>
+            <p><span class="code-muted">05</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Data & Analytics"</span>,</p>
+            <p><span class="code-muted">06</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Artificial Intelligence"</span>,</p>
+            <p><span class="code-muted">07</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Software Development"</span>]</p>
+            <p><span class="code-muted">08</span> &nbsp;&nbsp;&nbsp;&nbsp;self.mindset = <span class="code-green">"Always learning"</span></p>
+            <p><span class="code-muted">09</span> <span class="code-comment"># Transformando ideias em soluções.</span><span class="cursor">_</span></p>
+          </div>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">MISSION STATEMENT</p>
+          <h3>Tecnologia com<br><span>propósito.</span></h3>
+          <p>Estou desenvolvendo minhas habilidades em programação, análise de dados e IA para transformar problemas reais em soluções úteis. Gosto de aprender construindo, testar ideias e evoluir cada projeto a cada nova descoberta.</p>
+          <div class="mini-facts"><div><span class="fact-symbol">⌁</span><span><b>Abordagem</b><small>Aprender na prática</small></span></div><div><span class="fact-symbol">⌘</span><span><b>Interesse</b><small>Dados + IA + Software</small></span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="skills">
+      <div class="section-heading"><span class="section-index">02 / SYSTEMS</span><h2>TECH <span>MODULES</span></h2><p>Ferramentas e áreas que fazem parte da minha jornada.</p></div>
+      <div class="module-grid">
+        <article class="module-card"><div class="module-top"><span class="module-icon">⌘</span><span class="module-id">MOD_01</span></div><h3>PROGRAMMING</h3><p>Construção de lógica e aplicações.</p><div class="chips"><span>Python</span><span>C#</span><span>SQL</span><span>Git</span></div><div class="module-track"><i style="width:76%"></i></div><small class="module-foot">LEARNING IN PROGRESS</small></article>
+        <article class="module-card"><div class="module-top"><span class="module-icon">◫</span><span class="module-id">MOD_02</span></div><h3>DATA ANALYTICS</h3><p>Exploração, tratamento e visualização de dados.</p><div class="chips"><span>Pandas</span><span>NumPy</span><span>Power BI</span><span>Excel</span></div><div class="module-track"><i style="width:68%"></i></div><small class="module-foot">LEARNING IN PROGRESS</small></article>
+        <article class="module-card"><div class="module-top"><span class="module-icon">◎</span><span class="module-id">MOD_03</span></div><h3>ARTIFICIAL INTELLIGENCE</h3><p>Agentes, IA generativa e automação.</p><div class="chips"><span>AI Agents</span><span>Prompting</span><span>Foundry</span></div><div class="module-track"><i style="width:64%"></i></div><small class="module-foot">LEARNING IN PROGRESS</small></article>
+        <article class="module-card"><div class="module-top"><span class="module-icon">⌬</span><span class="module-id">MOD_04</span></div><h3>INFRASTRUCTURE</h3><p>Fundamentos de redes e segurança.</p><div class="chips"><span>CCNA</span><span>Fortinet</span><span>Windows Server</span></div><div class="module-track"><i style="width:58%"></i></div><small class="module-foot">LEARNING IN PROGRESS</small></article>
+      </div>
+      <p class="section-note">Os indicadores são elementos visuais, não avaliações objetivas de proficiência.</p>
+    </section>
+
+    <section class="section-shell section-block" id="projects">
+      <div class="section-heading"><span class="section-index">03 / PROJECT DATABASE</span><h2>SELECTED <span>PROJECTS</span></h2><p>Projetos em desenvolvimento e experimentos práticos.</p></div>
+      <div class="project-list">
+        <article class="project-card featured"><div class="project-art"><div class="project-orb"><span>CAIO</span></div><span class="project-art-label">ACADEMIC INTELLIGENCE</span></div><div class="project-content"><div class="project-kicker">FEATURED PROJECT / 001</div><h3>CAIO — Central Acadêmica Inteligente Online</h3><p>Assistente virtual conceitual para facilitar o acesso dos alunos às informações acadêmicas da turma, reduzindo perguntas repetitivas e centralizando orientações.</p><div class="chips"><span>AI Agents</span><span>Microsoft AI Foundry</span><span>Knowledge Base</span></div><span class="project-status"><i></i> EM DESENVOLVIMENTO</span></div></article>
+        <article class="project-card compact"><div class="project-content"><div class="project-kicker">PROJECT / 002</div><h3>Data Analytics Lab</h3><p>Espaço para projetos de análise, tratamento e visualização de dados.</p><div class="chips"><span>Python</span><span>Pandas</span><span>Power BI</span></div><span class="project-status"><i></i> EM EVOLUÇÃO</span></div><div class="project-symbol">◫</div></article>
+        <article class="project-card compact"><div class="project-content"><div class="project-kicker">PROJECT / 003</div><h3>Software Experiments</h3><p>Pequenas aplicações para praticar lógica, desenvolvimento e resolução de problemas.</p><div class="chips"><span>C#</span><span>Python</span><span>SQL</span></div><span class="project-status"><i></i> EM EVOLUÇÃO</span></div><div class="project-symbol">⌘</div></article>
+      </div>
+      <p class="section-note">Adicione links aos repositórios de cada projeto assim que estiverem publicados.</p>
+    </section>
+
+    <section class="section-shell contact-section" id="contact">
+      <div class="contact-frame"><div class="section-index">04 / ESTABLISH CONNECTION</div><div class="contact-core"><div class="contact-pulse"></div><span>GD</span></div><h2>LET'S BUILD<br><span>THE FUTURE.</span></h2><p>Aberto a oportunidades de estágio, colaboração e novos desafios em tecnologia.</p><div class="contact-actions"><a class="button button-primary" href="https://github.com/" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a><a class="button button-ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a></div><small class="contact-note">Lembre-se de substituir os links pelos endereços dos seus perfis.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>GD / DIGITAL IDENTITY</span><span>DESIGNED TO EXPLORE WHAT'S NEXT <b>◈</b></span><span>© <span id="year"></span> GUSTAVO DANTAS</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
